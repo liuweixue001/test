@@ -1,0 +1,10 @@
+crossing_yolov5s在服务器243训练，使用 screen -r train 
+权重在/home/ubuntu/Public/liuweixue/crossing_yolov5s/crossing/weights/
+
+crossing在服务器249训练，权重在/home/xdt/Public/liuweixue/fight/weights/
+	在验证集上，crossing_best_100.pt有11个未通过，crossing_best有12个未通过
+已暂停训练
+
+fight在服务器249训练，
+使用screen -r train_crossing进入
+权重在/home/xdt/Public/liuweixue/fight/weights/
