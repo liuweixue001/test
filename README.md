@@ -1,6 +1,5 @@
 在git上先从主分支clone一个自己的分支master1  
 将master1拉到本地  
-如果master中的文件1有内容修改，本地的master1没有修改，则可以直接merge，不会报错  
-如果master中的文件1有内容修改，本地的master1也有修改，则会存在冲突，需要手动解决  
-  
-解决完冲突后可以直接推送  
+如果master中的文件1有内容修改，本地的master1没有修改，则可以直接从远端的master分支merge到本地的master1，不会报错  
+如果master中的文件1有内容修改，本地的master1也有修改，从远端merge到本地则会存在冲突，需要手动解决  
+解决完冲突后可以推送到master1分支，也可以推送到master分支，也可以在本地搞一个master分支，将本地master1中的内容merge到本地master中，后续使用本地的master进行提交和推送
